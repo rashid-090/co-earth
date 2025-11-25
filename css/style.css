@@ -2942,7 +2942,8 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 }
 @media only screen and (min-width: 992px){ 
 .page-title-img {
-  height: 600px;
+  height: 700px;
+  object-fit: cover;
 }
 
  }
