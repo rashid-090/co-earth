@@ -2328,7 +2328,11 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   will-change: background-position;
   margin: 0;
   padding: 0;
-  background:#2c2c2c url(../images/work-proc-bg.jpg) fixed;
+  background:#2c2c2c  fixed;
+  object-fit: cover;
+}
+.icon-music-play-button{
+  color: white !important;
 }
 .video-ads-text-cont {
   margin:0 auto;
@@ -2942,7 +2946,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 }
 @media only screen and (min-width: 992px){ 
 .page-title-img {
-  height: 700px;
+  height: 800px;
   object-fit: cover;
 }
 
@@ -11310,6 +11314,9 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   letter-spacing:1px;
 }
 
+ .mobilebr{
+    display: block;
+  }
 /* #1.25
 ***************************************************/
 .equal-height {
@@ -11324,6 +11331,9 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   }
   .sm-padd{
     padding-top: 50px;
+  }
+  .mobilebr{
+    display: none;
   }
 }
 .shop-ad-height {
